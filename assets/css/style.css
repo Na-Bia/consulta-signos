@@ -1,0 +1,77 @@
+:root {
+    --color-bg-purple:rgb(35, 27, 66);
+    --color-bg-pink-light:rgb(226, 195, 198);
+    --color-bg-green-light:rgb(198, 216, 192);
+    --color-bg-yellow-light:rgb(255, 255, 204);
+    --color-btn-purple: rgb(51, 36, 114);
+    --color-btn-purple-light: rgb(78, 65, 131);
+    /** Translúcidos*/
+    --color-ctn-white-translucent: rgba(255, 255, 250, 0.8);
+    --color-white-soft: rgba(255, 255, 255, 0.87);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-index{
+    background: linear-gradient(to bottom, var(--color-bg-purple),var(--color-bg-pink-light), var(--color-bg-yellow-light));
+}
+
+.container-custom {
+    padding: 2rem 6rem;
+    background-color: var(--color-ctn-white-translucent);
+}
+
+.input-custom {
+    background-color: transparent;
+    border-color: rgba(204, 199, 228, 0.76);
+    border-width: 2px;
+}
+
+.input-custom:focus {
+    background-color: var(--color-white-soft);
+    border-color: rgba(204, 199, 228, 0.76);
+    box-shadow: 0 0 0 0.3rem rgba(204, 199, 228, 0.562);
+}
+
+.btn-custom {
+    background-color: var(--color-btn-purple);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:focus
+ {
+    background-color: var(--color-btn-purple-light);
+    color: var(--color-white-soft);
+}
+
+.custom-text-color-purple{
+    color: var(--color-bg-purple);
+
+}
+
+.custom-text-color-red{
+    color: rgba(212, 33, 33, 0.856);
+
+}
+
+.custom-bg {
+    background: linear-gradient(to bottom, var(--color-bg-green-light), var(--color-bg-pink-light), var(--color-bg-purple));
+}
+
+.custom-title-purple {
+    font-size: 4rem;
+    color:rgba(35, 27, 66, 0.9); 
+}
+
+.custom-text-purple {
+    margin: 2rem 10rem;
+    font-size: 1.2rem;
+    color:rgba(35, 27, 66);
+    letter-spacing: 1.2px; 
+    line-height: 1.5;
+}
