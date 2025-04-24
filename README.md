@@ -77,5 +77,25 @@ ___
 
 ---
 
+## **Imagens do Projeto**
+### Tela inicial com formulário
+Adicione uma captura de tela do formulário aqui:
+
+<img src="/imagensreadme/telainicial.png" width="500">
+
+
+### Validação da entrada
+Adicione uma imagem mostrando o erro ao inserir uma data inválida:
+
+<img src="/imagensreadme/validacao.png" width="500">
+
+
+### Resultado da consulta
+Inclua uma imagem da página com o signo e a descrição sendo exibidos:
+
+<img src="/imagensreadme/resultado.png" width="500">
+
+---
+
 ## Observações 💡
 Este projeto foi desenvolvido exclusivamente para fins acadêmicos e demonstração de conceitos de programação web.
